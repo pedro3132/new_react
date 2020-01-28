@@ -4,7 +4,7 @@ import './Pbar.css';
 export default function Pbar() {
   return (
  <>
- <input type="text" name="search" placeholder="Search.."/>
+ <ul> <li><input type="text" name="search" placeholder="Search.."/></li></ul>
  </>
   );
 }
